@@ -1,0 +1,25 @@
+body{
+	margin: 0px;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.film{
+	width: 300px;
+	height: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	margin: 15px;
+}
+
+.pic{
+	height: 350px;
+}
